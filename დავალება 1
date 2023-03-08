@@ -1,0 +1,20 @@
+#greeting, ask about their name
+print("hello," "user")
+name = input("whats your name?")
+print("nice to meet u" + " " +  name )
+
+
+
+#ცვლადების გარეშე
+print("hello," + input("whats your name?") +" , nice to meet you!")
+
+
+
+#different names
+name = input("what is yor name? ")
+if name=="gio":
+    print("nice to meet you gio")
+elif name=="lasha":
+    print("hii lasha")
+else:
+    print("thats not what I asked!")
